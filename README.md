@@ -92,3 +92,63 @@
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="html.html">Home</a></li>
+      <li><a href="signin.html">Sign In</a></li>
+      <li><a href="#library">Library</a></li>
+      <li><a href="#playlists">Playlists</a></li>
+    </ul>
+  </nav>
+
+
+ 
+  
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #9E8772;
+            font-family: Arial, sans-serif;
+            font-size: 35px;
+        }
+        h1{
+            color: #333;
+           
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form action="html.html">
+        <h1>SIGN IN PAGE</h1><br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit">Sign In</button>
+    </form>
+    </center>
+</body>
+</html>
